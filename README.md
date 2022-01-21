@@ -1,3 +1,3 @@
 # Portfolio-Site
 
-made by next js and typescript
+This will be made by next js and typescript
