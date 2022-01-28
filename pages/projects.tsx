@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import React, { useState } from "react";
 import ProjectCard from "../Components/ProjectCard";
 import ProjectsNavbar from "../Components/ProjectsNavbar";
@@ -32,6 +33,9 @@ function Projects() {
         height: "70vh",
       }}
     >
+      <Head>
+        <title>Front End Devolper | Projects | Ahmed Barakat</title>
+      </Head>
       <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}
         active={active}

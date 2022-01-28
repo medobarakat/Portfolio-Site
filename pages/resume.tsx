@@ -3,6 +3,8 @@ import BarCard from "../Components/BarCard";
 import { SkillData, ToolsData } from "../data/Data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnitmate } from "../data/animations";
+import Head from "next/head";
+
 function resume() {
   return (
     <motion.div
@@ -12,6 +14,9 @@ function resume() {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Front End Devolper | Resume | Ahmed Barakat</title>
+      </Head>
       <motion.div
         className="grid md:grid-cols-2 gap-6"
         variants={fadeInUp}

@@ -3,7 +3,7 @@ import React from "react";
 import { fadeInUp, routeAnitmate, stagger } from "../data/animations";
 import AboutCard from "../Components/AboutCard";
 import { AboutData } from "../data/Data";
-
+import Head from "next/head";
 function index() {
   return (
     <motion.div
@@ -13,6 +13,9 @@ function index() {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Front End Devolper | Portfolio | Ahmed Barakat</title>
+      </Head>
       <h5 className="font-md py-2 leading-6">
         My Name Is Ahmed I Am From Egypt I Am Skilled In Front End Developing ,
         I Have +2 Years Experience and Iam Always Developing My self
