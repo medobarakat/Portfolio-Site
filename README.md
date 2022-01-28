@@ -1,5 +1,5 @@
 # Portfolio-Site
-this is a meme responsive Webpage built with ReactJs , React Router
+this is a Portfolio responsive Webpage built with NextJs ,TypeScript ,  ReactJs , React Router
 
 ![screenshot](./public/screenshot.png)
 
