@@ -256,4 +256,14 @@ export const Project: IProject[] = [
     img_path: "https://i.ibb.co/M6zN5LP/screenshot.png",
     key_tech: ["Vue", "Landing Page", "Bootstrap", "Responsive"],
   },
+  {
+    id: 12,
+    name: "Simple Store",
+    category: ["React"],
+    depolyed_url: "https://ahmed-store-redux1.netlify.app/",
+    description: "this is a Redux Webpage For Simple Store",
+    github_url: "https://github.com/medobarakat/Simple-Store",
+    img_path: "https://i.ibb.co/25rFBxs/p-12.png",
+    key_tech: ["React", "Redux", "React-Bootstrap", "Responsive"],
+  },
 ];
