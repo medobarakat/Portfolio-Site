@@ -40,6 +40,7 @@ function SideBar() {
       {/* social icons */}
       <div className="flex items-center justify-around w-9/12 p-1 mx-auto my-2 text-purple-600 md:w-full">
         <a
+          aria-label="Facebook"
           target="_blank"
           href="https://www.facebook.com/ahmed.barakat.5268"
           className="hover:text-purple-800"
@@ -47,6 +48,7 @@ function SideBar() {
           <AiFillFacebook className="w-8 h-8 cursor-pointer" />
         </a>
         <a
+          aria-label="Github"
           target="_blank"
           href="https://github.com/medobarakat"
           className="hover:text-purple-800"
@@ -54,6 +56,7 @@ function SideBar() {
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
         <a
+          aria-label="LinkedIn"
           target="_blank"
           href="https://www.linkedin.com/in/ahmed-barakat-dev/"
           className="hover:text-purple-800"
