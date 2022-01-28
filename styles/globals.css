@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+h3,
+button,
+a,
+span,
+div {
+  transition: all 0.4s;
+}
+
+div:hover {
+  transition: all 0.8s;
+}
+
+::-webkit-slider-thumb {
+  background-color: blueviolet;
+}
