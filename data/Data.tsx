@@ -266,4 +266,15 @@ export const Project: IProject[] = [
     img_path: "https://i.ibb.co/25rFBxs/p-12.png",
     key_tech: ["React", "Redux", "React-Bootstrap", "Responsive"],
   },
+  {
+    id: 13,
+    name: "Notes Mini App",
+    category: ["React"],
+    depolyed_url: "https://mini-react-note-app.netlify.app/",
+    description:
+      "this is a React Webpage for adding notes and removing them with typescript",
+    github_url: "https://github.com/medobarakat/Notes-App",
+    img_path: "https://i.ibb.co/pdKh3HH/p-13.png",
+    key_tech: ["React", "TypeScript", "Bootstrap", "Responsive", "Sass"],
+  },
 ];
