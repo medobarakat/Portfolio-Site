@@ -245,4 +245,15 @@ export const Project: IProject[] = [
     img_path: "https://i.ibb.co/wrYxPDC/p11.png",
     key_tech: ["React", "React Router", "Responsive"],
   },
+  {
+    id: 11,
+    name: "Zid Page Clone",
+    category: ["Vue"],
+    depolyed_url: "https://zid-clone-medobarakat.netlify.app/",
+    description:
+      "this is a responsive clone Webpage built with VueJs , Bootstrap",
+    github_url: "https://github.com/medobarakat/zid-clone",
+    img_path: "https://i.ibb.co/M6zN5LP/screenshot.png",
+    key_tech: ["Vue", "Landing Page", "Bootstrap", "Responsive"],
+  },
 ];
