@@ -214,7 +214,7 @@ export const Project: IProject[] = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     name: "movie search",
     category: ["React"],
     depolyed_url: "https://react-movie-search1.netlify.app/",
