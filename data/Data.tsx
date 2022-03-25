@@ -97,7 +97,13 @@ export const SkillData: IResumeData[] = [
   },
   {
     id: 5,
-    name: "Jquery",
+    name: "React Native",
+    level: "75%",
+    icon: <BsCircleFill />,
+  },
+  {
+    id: 6,
+    name: "JQuery",
     level: "80%",
     icon: <BsCircleFill />,
   },
@@ -110,6 +116,12 @@ export const ToolsData: IResumeData[] = [
     id: 0,
     name: "PhotoShop",
     level: "75%",
+    icon: <BsCircleFill />,
+  },
+  {
+    id: 1,
+    name: "Sql ",
+    level: "70%",
     icon: <BsCircleFill />,
   },
   {
