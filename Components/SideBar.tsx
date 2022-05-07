@@ -31,6 +31,9 @@ function SideBar() {
       <p className="p-2 mx-3 my-2 bg-gray-200 rounded-full dark:bg-gray-600 dark:text-white text-black">
         Front End Developer
       </p>
+      <p className="p-2 mx-3 my-2 bg-gray-200 rounded-full dark:bg-gray-600 dark:text-white text-black">
+        Mobile App Developer
+      </p>
       <a
         target="_blank"
         href="https://docs.google.com/document/d/1krMykigI_SnC5yOOCTSrRA6WZsZX9HXkyCYgRAr9Dao/edit?usp=sharing"

@@ -17,7 +17,7 @@ export interface IResumeData {
 
 // for projects
 // my categories
-export type category = "JQuery" | "React" | "Vue";
+export type category = "JQuery" | "React" | "Vue" | "React Native";
 //project interface
 export interface IProject {
   id: number;

@@ -30,7 +30,7 @@ function Projects() {
       exit="exit"
       className="relative px-6 pt-1 overflow-y-scroll"
       style={{
-        height: "70vh",
+        height: "80vh",
       }}
     >
       <Head>
@@ -41,7 +41,7 @@ function Projects() {
         active={active}
       />
       <motion.div
-        className="grid grid-cols-12 gap-4 my-3"
+        className="grid grid-cols-12 gap-5 my-3"
         variants={stagger}
         initial="initial"
         animate="animate"

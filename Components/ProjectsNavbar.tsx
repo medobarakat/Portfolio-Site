@@ -32,6 +32,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="JQuery" {...props} />
       <NavItem value="React" {...props} />
       <NavItem value="Vue" {...props} />
+      <NavItem value="React Native" {...props} />
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FiLayers } from "react-icons/fi";
 import { GiBreakingChain } from "react-icons/gi";
-import { FaServer, FaDelicious } from "react-icons/fa";
+import { FaServer, FaDelicious , FaMobileAlt } from "react-icons/fa";
 import { MdOutlineMobileFriendly } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
 import { IAboutData, IProject, IResumeData } from "./Interfaces";
@@ -22,15 +21,8 @@ export const AboutData: IAboutData[] = [
     id: 1,
     title: "Mobile App Developer",
     about: "Designing , Developing Mobile Apps For Android , Ios ",
-    icon: <FiLayers />,
+    icon: <FaMobileAlt />,
   },
-  // {
-  //   id: 2,
-  //   title: "WEB Design ",
-  //   about:
-  //     "Using My Ux/Ui design and My Front-End Experience To Make a Modern,Resposive Site.",
-  //   icon: <GiBreakingChain />,
-  // },
   {
     id: 2,
     title: "UX/UI Design",
@@ -126,7 +118,7 @@ export const ToolsData: IResumeData[] = [
   },
   {
     id: 1,
-    name: "Sql ",
+    name: "Sql",
     level: "70%",
     icon: <BsCircleFill />,
   },
@@ -294,5 +286,53 @@ export const Project: IProject[] = [
     github_url: "https://github.com/medobarakat/Notes-App",
     img_path: "https://i.ibb.co/pdKh3HH/p-13.png",
     key_tech: ["React", "TypeScript", "Bootstrap", "Responsive", "Sass"],
+  },
+  {
+    id: 14,
+    name: "Tesla Car App",
+    category: ["React Native"],
+    //need the deploy link
+    depolyed_url: "https://github.com/medobarakat/Tesla-Car-App/",
+    description:
+      "this is a Tesla Clone Page Mobile App built with React js , React Native",
+    github_url: "https://github.com/medobarakat/Tesla-Car-App/",
+    img_path: "https://i.ibb.co/ZLH1bKg/screenshot.png",
+    key_tech: ["React", "React Native", "JavaScript", "Mobile App"],
+  },
+  {
+    id: 15,
+    name: "Todo-App",
+    category: ["React Native"],
+    //need the deploy link
+    depolyed_url: "https://github.com/medobarakat/Todo-App/",
+    description:
+      "this is a Todo Mobile App built with React js , React Native",
+    github_url: "https://github.com/medobarakat/Todo-App/",
+    img_path: "https://i.ibb.co/5hNZY9m/Capture.png",
+    key_tech: ["React", "React Native", "JavaScript", "Mobile App"],
+  },
+  {
+    id: 16,
+    name: "Review-App",
+    category: ["React Native"],
+    //need the deploy link
+    depolyed_url: "https://github.com/medobarakat/Review-App",
+    description:
+      "this is a Simple Review Mobile App built with React js , React Native",
+    github_url: "https://github.com/medobarakat/Review-App",
+    img_path: "https://i.ibb.co/z8XW6wC/Capture11.png",
+    key_tech: ["React", "React Native", "JavaScript", "Mobile App"],
+  },
+  {
+    id: 16,
+    name: "Movie-Streaming-App",
+    category: ["React Native"],
+    //need the deploy link
+    depolyed_url: "https://github.com/medobarakat/Movie-Streaming-App",
+    description:
+      "this is a Mobile Movie App built with React js , React Native Looks Like Netflex",
+    github_url: "https://github.com/medobarakat/Movie-Streaming-App",
+    img_path: "https://i.ibb.co/nzMr8bz/screen1.png",
+    key_tech: ["React", "React Native", "JavaScript", "Mobile App"],
   },
 ];
