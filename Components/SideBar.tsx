@@ -20,7 +20,8 @@ function SideBar() {
         className="mx-auto rounded-2xl "
         height={128}
         width={128}
-        src="https://i.ibb.co/W6GzYfV/avatar.jpg"
+        // src="https://i.ibb.co/W6GzYfV/avatar.jpg"
+        src="https://avatars.githubusercontent.com/u/83758385?s=400&u=411cf4ef8152675155a1cef9c938f037ea25eac6&v=4"
         alt="profile-avatar"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider lg:text-2xl font-playball hover:text-purple-800 ">

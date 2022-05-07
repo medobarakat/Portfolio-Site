@@ -20,15 +20,21 @@ export const AboutData: IAboutData[] = [
   },
   {
     id: 1,
-    title: "UX/UI Design",
-    about: "Designing The Web Looking Of Colors, Themes and Fonts",
+    title: "Mobile App Developer",
+    about: "Designing , Developing Mobile Apps For Android , Ios ",
     icon: <FiLayers />,
   },
+  // {
+  //   id: 2,
+  //   title: "WEB Design ",
+  //   about:
+  //     "Using My Ux/Ui design and My Front-End Experience To Make a Modern,Resposive Site.",
+  //   icon: <GiBreakingChain />,
+  // },
   {
     id: 2,
-    title: "WEB Design ",
-    about:
-      "Using My Ux/Ui design and My Front-End Experience To Make a Modern,Resposive Site.",
+    title: "UX/UI Design",
+    about: "Designing The Web Looking Of Colors, Themes and Fonts",
     icon: <GiBreakingChain />,
   },
   {

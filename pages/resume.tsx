@@ -37,15 +37,23 @@ function resume() {
         <div>
           <h5 className="font-bold text-2xl my-1">Experience</h5>
           <div>
+            <h5 className="font-semibold text-xl py-1">TTL Egypt <span className="font-normal text-red-400 text-base">From 1-1-2022 till Now</span></h5>
+            <p className="mt-2">
+              Working As Front-End Developer Using ReactJs , ReactNative
+            </p>
+          </div>
+          <hr></hr>
+          <div>
             <h5 className="font-semibold text-xl py-1">FreeLance</h5>
             <p className="mt-2">
               Working As A FreeLancer For Several Freelance Site
             </p>
           </div>
+          <hr></hr>
         </div>
       </motion.div>
       {/* For the Bars */}
-      <div className="grid md:grid-cols-2 gap-9 mt-8">
+      <div className="grid md:grid-cols-2 gap-9 mt-4">
         {/* Languages + FrameWorks */}
         <div>
           <h5 className="font-bold text-xl my-1">Languages and FrameWorks</h5>
