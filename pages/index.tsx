@@ -14,10 +14,10 @@ function index() {
       exit="exit"
     >
       <Head>
-        <title>Front End Devolper | Portfolio | Ahmed Barakat</title>
+        <title>Ahmed Barakat | Front End / Mobile App Devolper | Portfolio </title>
       </Head>
       <h5 className="font-md py-2 leading-6">
-        My Name Is Ahmed I Am From Egypt I Am Skilled In Front End Developing ,
+        My Name Is Ahmed I Am From Egypt I Am Skilled In Front End Developing , Mobile App Developer
         I Have +2 Years Experience and Iam Always Developing My self
       </h5>
       <motion.div

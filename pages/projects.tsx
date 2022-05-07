@@ -34,7 +34,7 @@ function Projects() {
       }}
     >
       <Head>
-        <title>Front End Devolper | Projects | Ahmed Barakat</title>
+      <title>Ahmed Barakat | Front End / Mobile App Devolper | Portfolio </title>
       </Head>
       <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}

@@ -15,7 +15,7 @@ function resume() {
       exit="exit"
     >
       <Head>
-        <title>Front End Devolper | Resume | Ahmed Barakat</title>
+      <title>Ahmed Barakat | Front End / Mobile App Devolper | Portfolio </title>
       </Head>
       <motion.div
         className="grid md:grid-cols-2 gap-6"
