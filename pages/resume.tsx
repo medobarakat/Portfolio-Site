@@ -24,7 +24,7 @@ function resume() {
         animate="animate"
       >
         {/* the education */}
-        <div>
+        {/* <div>
           <h5 className="font-bold text-2xl my-1">Education</h5>
           <div>
             <h5 className="font-semibold text-xl py-1">
@@ -32,9 +32,9 @@ function resume() {
             </h5>
             <p className="mt-2">Alexandria University (2014 - 2019 )</p>
           </div>
-        </div>
+        </div> */}
         {/* the experience */}
-        <div>
+        {/* <div>
           <h5 className="font-bold text-2xl my-1">Experience</h5>
           <div>
             <h5 className="font-semibold text-xl py-1">TTL Egypt <span className="font-normal text-red-400 text-base">From 1-1-2022 till Now</span></h5>
@@ -50,7 +50,7 @@ function resume() {
             </p>
           </div>
           <hr></hr>
-        </div>
+        </div> */}
       </motion.div>
       {/* For the Bars */}
       <div className="grid md:grid-cols-2 gap-9 mt-4">

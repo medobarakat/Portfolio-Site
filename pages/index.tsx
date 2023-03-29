@@ -18,7 +18,7 @@ function index() {
       </Head>
       <h5 className="font-md py-2 leading-6">
         My Name Is Ahmed I Am From Egypt I Am Skilled In Front End Developing , Mobile App Developer
-        I Have +2 Years Experience and Iam Always Developing My self
+        I Have +3 Years Experience and Iam Always Developing My self
       </h5>
       <motion.div
         variants={stagger}

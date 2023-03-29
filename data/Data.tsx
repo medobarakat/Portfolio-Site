@@ -14,19 +14,19 @@ export const AboutData: IAboutData[] = [
     id: 0,
     title: "Front End Developing",
     about:
-      "Making Front End of The Web and Use The Lastest Features OF FrameWorks and Predecessor ",
+      "Making Front End of The Web and Use The Lastest Features OF FrameWorks and Predecessor .",
     icon: <RiComputerLine />,
   },
   {
     id: 1,
     title: "Mobile App Developer",
-    about: "Designing , Developing Mobile Apps For Android , Ios ",
+    about: "Designing , Developing Mobile Apps With Cross Platform Framework For Android , IOS .",
     icon: <FaMobileAlt />,
   },
   {
     id: 2,
     title: "UX/UI Design",
-    about: "Designing The Web Looking Of Colors, Themes and Fonts",
+    about: "Designing The Web Looking Of Colors, Themes and Fonts With Multi Programms Like Figma , AdobeXD .",
     icon: <GiBreakingChain />,
   },
   {
@@ -47,7 +47,7 @@ export const AboutData: IAboutData[] = [
     id: 5,
     title: "Competitve Coder",
     about:
-      "Daily Problem Solver In HackerRank and Some Other Problem Solving Sites",
+      "Daily Problem Solver In HackerRank and Some Other Problem Solving Sites .",
     icon: <FaDelicious />,
   },
 ];
@@ -101,7 +101,19 @@ export const SkillData: IResumeData[] = [
   },
   {
     id: 6,
+    name: "Python",
+    level: "70%",
+    icon: <BsCircleFill />,
+  },
+  {
+    id: 7,
     name: "JQuery",
+    level: "80%",
+    icon: <BsCircleFill />,
+  },
+  {
+    id: 8,
+    name: "Jest Js",
     level: "80%",
     icon: <BsCircleFill />,
   },
@@ -112,18 +124,24 @@ export const SkillData: IResumeData[] = [
 export const ToolsData: IResumeData[] = [
   {
     id: 0,
-    name: "PhotoShop",
+    name: "Git",
     level: "75%",
     icon: <BsCircleFill />,
   },
   {
     id: 1,
+    name: "PhotoShop",
+    level: "75%",
+    icon: <BsCircleFill />,
+  },
+  {
+    id: 2,
     name: "Sql",
     level: "70%",
     icon: <BsCircleFill />,
   },
   {
-    id: 1,
+    id: 3,
     name: "Chrome Dev Tools ",
     level: "85%",
     icon: <BsCircleFill />,
